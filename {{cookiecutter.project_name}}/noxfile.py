@@ -65,3 +65,13 @@ def mypy(session: Session) -> None:
     session.install("mypy", "pytest", "types-toml")
     session.install(".")
     session.run("mypy", *args)
+
+
+@session
+def docs(session: Session) -> None:
+    """Build documentation.
+
+    :param session: The Session object
+    """
+    session.install("sphinx", "sphinx-autodoc-typehints", "furo", "toml")
+    session.run("sphinx-build", "doc/src", "doc/build")
