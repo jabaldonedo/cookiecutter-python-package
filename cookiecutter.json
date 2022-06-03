@@ -1,6 +1,7 @@
 
 {
   "project_name": "manhattan-project",
+  "project_description": "Highly classified project.",
   "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
   "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
   "root_package": "manhattan",

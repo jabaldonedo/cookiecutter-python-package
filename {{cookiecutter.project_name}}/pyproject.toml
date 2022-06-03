@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "ophir-xyz"
-version = "0.0.0"
-description = "Ophir Xyz"
-authors = ["Juan Alonso <jabaldonedo@gmail.com>"]
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.project_description}}"
+authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
 readme = "README.rst"
 packages = [
     { include = "{{cookiecutter.root_package}}", from = "src" }
