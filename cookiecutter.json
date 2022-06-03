@@ -1,11 +1,11 @@
 
 {
-  "project_name": "ophir-xyz",
+  "project_name": "manhattan-project",
   "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
   "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
-  "root_package": "ophir",
+  "root_package": "manhattan",
   "author": "Juan Alonso",
-  "email": "jabaldonedo@gmail.com",
+  "email": "juan@alonsobaldonedo.com",
   "copyright_year": "{% now 'utc', '%Y' %}",
   "version": "0.0.0"
 }
