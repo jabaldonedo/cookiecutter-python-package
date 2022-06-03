@@ -1,0 +1,9 @@
+[flake8]
+application-import-names = {{cookiecutter.root_package}}.{{cookiecutter.package_name}}
+import-order-style = google
+select = A,ANN,B,B9,BLK,C,C4,D,DAR,E,F,I,N,S,W
+max-line-length = 120
+max-complexity = 10
+per-file-ignores = test/*:S101,DAR101
+rst-roles = class,const,func,meth,mod,ref
+rst-directives = deprecated

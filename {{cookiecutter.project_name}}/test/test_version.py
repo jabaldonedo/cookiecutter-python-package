@@ -1,6 +1,8 @@
 """Test cases for checking versions consistence across project."""
 from pathlib import Path
+
 from toml import loads
+
 from {{cookiecutter.root_package}}.{{cookiecutter.package_name}} import __version__
 
 
